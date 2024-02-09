@@ -40,6 +40,7 @@ public class MenuManagerInGameScene : MonoBehaviour
     public void HomeButton() 
     {
         Time.timeScale=1;
+        DataManager.Instance.SaveData();
         SceneManager.LoadScene(0);
     }
 }
