@@ -9,9 +9,10 @@ public class PlayerManager : MonoBehaviour
 {
     public float health;
     bool dead = false;
-    public Transform bullet , floatingText;
+    public Transform bullet , floatingText, bloodParticle;
     Transform muzzle;
     public float bulletSpeed;
+    public GameObject tryAgainScreen;
 
     public Slider slider;
     bool mouseIsNotOverUI;
@@ -52,7 +53,24 @@ public class PlayerManager : MonoBehaviour
     {
         if (health <= 0)
         {
+            Destroy(Instantiate(bloodParticle, transform.position, Quaternion.identity),3f);
+            DataManager.Instance.LoseProcess();
             dead = true;
+            Destroy(gameObject);
+            tryAgainScreen.SetActive(true);
+
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Water")
+        {
+
+            Destroy(Instantiate(bloodParticle, transform.position, Quaternion.identity), 3f);
+            DataManager.Instance.LoseProcess();
+            dead = true;
+            Destroy(gameObject);
+            tryAgainScreen.SetActive(true);
         }
     }
 

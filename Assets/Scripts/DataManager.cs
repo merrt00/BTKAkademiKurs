@@ -52,6 +52,7 @@ public class DataManager : MonoBehaviour
         { 
             enemyKilled = value;
             GameObject.Find("EnemyKilledText").GetComponent<Text>().text = "ENEMY KILLED : " + enemyKilled.ToString();
+            WinProcess();
         }
 
     }
@@ -80,6 +81,19 @@ public class DataManager : MonoBehaviour
             totalShotBullet = myFile.GetInt("totalShotBullet");
             totalEnemyKilled = myFile.GetInt("totalEnemyKilled");
         }
+    }
+
+    public void WinProcess()
+    {
+        if (enemyKilled >= 5)
+        {
+            print("KAZANDINIZ !!!");
+        }
+    }
+
+    public void LoseProcess()
+    {
+        print("KAYBETTÝNÝZ !!!");
     }
 
 }
