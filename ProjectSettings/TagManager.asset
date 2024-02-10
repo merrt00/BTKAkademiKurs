@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Bullet
   - Water
+  - End
+  - End1
   layers:
   - Default
   - TransparentFX

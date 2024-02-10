@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerManager : MonoBehaviour
@@ -71,6 +72,14 @@ public class PlayerManager : MonoBehaviour
             dead = true;
             Destroy(gameObject);
             tryAgainScreen.SetActive(true);
+        }
+        if(other.tag  == "End")
+        {
+            SceneManager.LoadScene(2);
+        }
+        if (other.tag == "End1")
+        {
+            SceneManager.LoadScene(3);
         }
     }
 

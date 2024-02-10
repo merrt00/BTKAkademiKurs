@@ -43,4 +43,8 @@ public class MenuManagerInGameScene : MonoBehaviour
         DataManager.Instance.SaveData();
         SceneManager.LoadScene(0);
     }
+    public void OnApplicationQuit()
+    {
+        Application.Quit();
+    }
 }

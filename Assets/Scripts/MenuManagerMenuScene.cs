@@ -7,6 +7,8 @@ using UnityEngine.UI;
 public class MenuManagerMenuScene : MonoBehaviour
 {
     public GameObject dataBoard;
+    public GameObject aboutBoard;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,9 +34,21 @@ public class MenuManagerMenuScene : MonoBehaviour
         dataBoard.transform.GetChild(2).GetComponent<Text>().text = DataManager.Instance.totalEnemyKilled.ToString();
         dataBoard.SetActive(true);
     }
+    public void AboutButton()
+    {
+        aboutBoard.SetActive(true);
+    }
 
     public void XButton()
     {
         dataBoard.SetActive(false);
+    }
+    public void CloseButton()
+    {
+        aboutBoard.SetActive(false);
+    }
+    public void OnApplicationQuit()
+    {
+        Application.Quit();
     }
 }
