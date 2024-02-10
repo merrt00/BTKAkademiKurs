@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f87b1d42a16dc3e4691317c697a89892
+guid: 6fc72247d8583274d9d0a7c46c516d88
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -62,8 +62,8 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
-  cookieLightType: 1
+  applyGammaDecoding: 0
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -141,13 +141,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Elements1024x512_0
+      name: 2D_Sign-Photoroom.png-Photoroom_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 374
-        width: 312
-        height: 136
+        x: 102
+        y: 546
+        width: 196
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11e392de6d3a5fa4182963233568d76e
-      internalID: 2091808741
+      spriteID: 79e0d94c9ef581e4aa8f889631b3e677
+      internalID: 1077760931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elements1024x512_1
+      name: 2D_Sign-Photoroom.png-Photoroom_1
       rect:
         serializedVersion: 2
-        x: 360
-        y: 374
-        width: 260
-        height: 106
+        x: 384
+        y: 546
+        width: 292
+        height: 292
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,20 +176,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1984b987c22072a4493514a40e586444
-      internalID: 70817397
+      spriteID: 09a66dc23ec4f644f8d93743c3c2ff56
+      internalID: 453623812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elements1024x512_2
+      name: 2D_Sign-Photoroom.png-Photoroom_2
       rect:
         serializedVersion: 2
-        x: 654
-        y: 374
-        width: 312
-        height: 136
+        x: 755
+        y: 546
+        width: 277
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 350781ba94c2340488785ff1ab6113bc
-      internalID: -1418173908
+      spriteID: a0267f2b8efae3f488968960373b064a
+      internalID: 816290449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elements1024x512_3
+      name: 2D_Sign-Photoroom.png-Photoroom_3
       rect:
         serializedVersion: 2
-        x: 120
-        y: 348
-        width: 7
-        height: 24
+        x: 125
+        y: 92
+        width: 170
+        height: 430
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5d0e9b9f75c68045a71a7c4bcdc548d
-      internalID: 1886682251
+      spriteID: aa27f037600be4841b6ce63ff472f2d5
+      internalID: 837258094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elements1024x512_4
+      name: 2D_Sign-Photoroom.png-Photoroom_4
       rect:
         serializedVersion: 2
-        x: 654
-        y: 200
-        width: 294
-        height: 159
+        x: 402
+        y: 90
+        width: 273
+        height: 432
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +239,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b714d14b6c3296748a9e2a293aa61ce7
-      internalID: 1485888650
+      spriteID: 869b0551b4bb34d4ea0043a0f571e058
+      internalID: -1559785046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elements1024x512_5
+      name: 2D_Sign-Photoroom.png-Photoroom_5
       rect:
         serializedVersion: 2
-        x: 762
-        y: 348
-        width: 5
-        height: 24
+        x: 718
+        y: 92
+        width: 248
+        height: 418
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,134 +260,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd9129ac72d060d479c125895c5128ca
-      internalID: -2094853102
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elements1024x512_6
-      rect:
-        serializedVersion: 2
-        x: 935
-        y: 306
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5bb194de8c91f84c967a75e5140a42b
-      internalID: 1729310129
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elements1024x512_7
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 30
-        width: 260
-        height: 258
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71a7ea97a55673041aac5dd2c28fec80
-      internalID: 63305280
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elements1024x512_8
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 42
-        width: 256
-        height: 238
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e8a355ec3db88143bf50f3379c9da4d
-      internalID: -529437678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elements1024x512_9
-      rect:
-        serializedVersion: 2
-        x: 612
-        y: 40
-        width: 378
-        height: 170
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a5caab9ee81e95439313056ea3e0941
-      internalID: 757138400
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elements1024x512_10
-      rect:
-        serializedVersion: 2
-        x: 652
-        y: 186
-        width: 19
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec2a5c646d10a9e4bb952a177f2a319a
-      internalID: -1566210136
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elements1024x512_11
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 144
-        width: 30
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8a2fbeede4b4b747a29b4423244c3ab
-      internalID: -1896286725
+      spriteID: 0fd2b91194102e14aa04e659e674e1d9
+      internalID: -468044499
       vertices: []
       indices: 
       edges: []
@@ -395,7 +269,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 83ad409c279257e49ac3a0eada2b5ee7
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -403,18 +277,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Elements1024x512_0: 2091808741
-      Elements1024x512_1: 70817397
-      Elements1024x512_10: -1566210136
-      Elements1024x512_11: -1896286725
-      Elements1024x512_2: -1418173908
-      Elements1024x512_3: 1886682251
-      Elements1024x512_4: 1485888650
-      Elements1024x512_5: -2094853102
-      Elements1024x512_6: 1729310129
-      Elements1024x512_7: 63305280
-      Elements1024x512_8: -529437678
-      Elements1024x512_9: 757138400
+      2D_Sign-Photoroom.png-Photoroom_0: 1077760931
+      2D_Sign-Photoroom.png-Photoroom_1: 453623812
+      2D_Sign-Photoroom.png-Photoroom_2: 816290449
+      2D_Sign-Photoroom.png-Photoroom_3: 837258094
+      2D_Sign-Photoroom.png-Photoroom_4: -1559785046
+      2D_Sign-Photoroom.png-Photoroom_5: -468044499
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
